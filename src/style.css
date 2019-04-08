@@ -1,0 +1,75 @@
+.container {
+	position: relative;
+	margin-top: 50px;
+	background-color: #999999;
+	margin-bottom: 5%;
+	border: 10px solid;
+	border-radius: 10px;
+}
+
+.menyBar {
+  background-color: #DEDEDE;
+}
+
+.menyBar a{
+	color: #433434;
+	font-size: 18px;
+}
+
+.menyBarCenter{
+	margin: auto;
+  width: 50%;
+}
+
+.menyBar a:visited{
+	color: #336633;
+}
+
+h1, h2, h3 {
+	color: #DD2222;
+	font-family: 'Corben', Georgia, Times, serif;
+}
+
+/*besøkt side*/
+a:visited {
+	color: blue;
+}
+/*musen over linken*/
+
+a:hover {
+	color: lightgreen;;
+	text-decoration: none;
+}
+/*valgt lenke*/
+
+a:active {
+	color: #FF00FF;
+	text-decoration: none;
+	background-color: #B2FF99;
+}
+/*farge etter valgt lenke*/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+		color: black;
+		font-size: 16px;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+.filmer {
+	margin: 50px;
+}
+
+iframe{
+    border-width: 0px;
+}
